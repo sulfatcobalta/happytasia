@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Tasia!d</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <div class="first-container" id="first-container">
+        <h1>С Днем Рождения!</h1>
+        <p>Дорогая Тасюша,</p>
+        <p>Поздравляем тебя с днем рождения!</p>
+        <p>Мы твои друзья собачки подготовили для тебя сюрприз,</p>
+        <p>ты должна пройти виртуальный квест и отвтеить на наши вопросы.</p>
+        <p>Удачи!!!</p>
+
+        <button onclick=start()>Начать</button>
+    </div>
+
+    <div class="second-container" id="second-container">
+        <h1>Как тебя тебя зовут?</h1>
+        <div class="radio-container">
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="Таисия"> Таисия
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="Тася"> Тася
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="Тасюша"> Тасюша
+                </label><br>
+            </div>
+        </div>
+        <div class="but">
+            <button onclick=secondanwswer()>Ответить</button>
+        </div>
+    </div>
+
+    <div class="third-container" id="third-container">
+        <h1 style="font-size: 25px;">Как ночь глубокая черна,
+            Стройна, прекрасно сложена,<br>
+            Отличный сторож, санитарка,
+            А звать бельгийская…</h1>
+        <div class="radio-container">
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="Овчарка"> Овчарка
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="Бульдог"> Бульдог
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="Лабрадор"> Лабрадор
+                </label><br>
+            </div>
+        </div>
+        <div class="but">
+            <button onclick=thirdanwswer()>Ответить</button>
+        </div>
+    </div>
+
+
+    <div class="fourth-container" id="fourth-container">
+        <h1>Я самый маленький малыш...</h1>
+        <div class="radio-container">
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="Фред"> Фред
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="Чихуа-хуа"> Чихуа-хуа
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="Тасюша"> Тасюша
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="Джек"> Джек-рассел
+                </label><br>
+            </div>
+        </div>
+        <div class="but">
+            <button onclick=fourthanwswer()>Ответить</button>
+        </div>
+    </div>
+
+    <div class="five-container" id="five-container">
+        <h1>У меня самые красивые глазки</h1>
+        <div class="radio-container">
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="Локи"> Локи
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="Малыш корги"> Малыш корги
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="Тасюша"> Тасюша
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="верно"> У всех красивые глазки, но у Таси очень 
+                </label><br>
+            </div>
+        </div>
+        <div class="but">
+            <button onclick=fiveanwswer()>Ответить</button>
+        </div>
+    </div>
+
+    <div class="six-container" id="six-container">
+        <h1>Кто на свете всех милее, всех прекрасней и умнее?</h1>
+        <div class="radio-container">
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> Тасюша
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> Ваня
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> Гермиона
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="верно"> Тасюша вообще самая классная
+            </div>
+        </div>
+        <div class="but">
+            <button onclick=sixanwswer()>Ответить</button>
+        </div>
+    </div>
+
+
+    <div class="seven-container" id="seven-container">
+        <h1>Если два песика любят Тасюшу, то кого любит больше она?</h1>
+        <div class="radio-container">
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> Фреда
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> Джорджа
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="верно"> Тасюша любит не только песиков, она всех очень любит
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> Тасюша любит всех песиков, ведь они все хорошие
+            </div>
+        </div>
+        <div class="but">
+            <button onclick=sevenanwswer()>Ответить</button>
+        </div>
+    </div>
+
+    <div class="eight-container" id="eight-container">
+        <h1>Две птички приземлились на дерево и увидели трех собачек, что делали собачки?</h1>
+        <div class="radio-container">
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="верно"> Обнимались
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> Разговаривали
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> Рычали
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> Птички врут
+            </div>
+        </div>
+        <div class="but">
+            <button onclick=eightanwswer()>Ответить</button>
+        </div>
+    </div>
+
+    <div class="nine-container" id="nine-container">
+        <h1>Он пушистая собачка, очень любит обниматься</h1>
+        <div class="radio-container">
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> Ваня
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> Рико
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="верно"> Фред
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> Джордж
+            </div>
+        </div>
+        <div class="but">
+            <button onclick=nineanwswer()>Ответить</button>
+        </div>
+    </div>
+
+    <div class="ten-container" id="nine-container">
+        <h1>Кого собачки любят больщше всего</h1>
+        <div class="radio-container">
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> Кушать
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="верно"> Тасюшу
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> Играть они любят
+                </label><br>
+            </div>
+            <div class="radio-button">
+                <label>
+                    <input type="radio" name="color" value="нет"> котиков
+            </div>
+        </div>
+        <div class="but">
+            <button onclick=tenanwswer()>Ответить</button>
+        </div>
+
+    </div>
+
+
+    <div class="finish-container" id="finish-container">
+        <h1>Тасюша, ты молодец!</h1>
+        <p>Мы очень тебя любим и поздравляем с днем рождения. ты самая лучшая!</p>
+        <p>Все собачки очень тебяч любят, они тебя поздравляют, ты молодец</p>
+        <p>ура ура ура</p>
+        <p>гав-гав-гав-гав-гав</p>
+        <p>Тасюша, ты молодец</p>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+
+
+    
+</body>
+</html>
